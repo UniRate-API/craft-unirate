@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="UniRate currency exchange">
+  <!-- Circular exchange arrows enclosing a currency glyph -->
+  <path fill="currentColor" d="M50 8a42 42 0 0 1 39.2 26.9l-9.3 3.6A32 32 0 0 0 50 18V8z"/>
+  <path fill="currentColor" d="M86 24l5 20-20-3 15-17z"/>
+  <path fill="currentColor" d="M50 92A42 42 0 0 1 10.8 65.1l9.3-3.6A32 32 0 0 0 50 82v10z"/>
+  <path fill="currentColor" d="M14 76l-5-20 20 3-15 17z"/>
+  <path fill="currentColor" d="M58 36h-13a9 9 0 0 0 0 18h10a4 4 0 0 1 0 8H42v7h7v5h6v-5h1a11 11 0 0 0 0-22h-11a2 2 0 0 1 0-4h17v-7h-4v-5h-6v5z" transform="translate(-1 -1) scale(0.98)"/>
+</svg>

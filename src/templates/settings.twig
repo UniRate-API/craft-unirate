@@ -1,0 +1,32 @@
+{# UniRate Currency — plugin settings (Control Panel) #}
+{% import "_includes/forms" as forms %}
+
+{{ forms.autosuggestField({
+    label: 'API key'|t('unirate'),
+    instructions: 'Your UniRate API key. A free-tier key is available at unirateapi.com. Supports environment variables, e.g. $UNIRATE_API_KEY.'|t('unirate'),
+    id: 'apiKey',
+    name: 'apiKey',
+    suggestEnvVars: true,
+    value: settings.apiKey,
+    errors: settings.getErrors('apiKey'),
+}) }}
+
+{{ forms.autosuggestField({
+    label: 'API base URL'|t('unirate'),
+    instructions: 'Override only for testing or a self-hosted proxy.'|t('unirate'),
+    id: 'baseUrl',
+    name: 'baseUrl',
+    suggestEnvVars: true,
+    value: settings.baseUrl,
+    errors: settings.getErrors('baseUrl'),
+}) }}
+
+{{ forms.textField({
+    label: 'Request timeout (seconds)'|t('unirate'),
+    id: 'timeout',
+    name: 'timeout',
+    type: 'number',
+    min: 1,
+    value: settings.timeout,
+    errors: settings.getErrors('timeout'),
+}) }}

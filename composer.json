@@ -1,0 +1,64 @@
+{
+    "name": "unirate-api/craft-unirate",
+    "description": "Live currency exchange rates, conversion, currency lists, and VAT rates in Craft CMS templates via the UniRate API.",
+    "type": "craft-plugin",
+    "license": "MIT",
+    "keywords": [
+        "craft",
+        "craftcms",
+        "craft-plugin",
+        "currency",
+        "exchange-rates",
+        "forex",
+        "vat",
+        "fintech",
+        "unirate"
+    ],
+    "homepage": "https://unirateapi.com",
+    "support": {
+        "source": "https://github.com/UniRate-API/craft-unirate",
+        "issues": "https://github.com/UniRate-API/craft-unirate/issues",
+        "docs": "https://github.com/UniRate-API/craft-unirate"
+    },
+    "authors": [
+        {
+            "name": "UniRate-API",
+            "email": "199503049+rob-browncc@users.noreply.github.com",
+            "homepage": "https://unirateapi.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "craftcms/cms": "^5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "unirateapi\\craftunirate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "unirateapi\\craftunirate\\tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "handle": "unirate",
+        "name": "UniRate Currency",
+        "developer": "UniRate-API",
+        "developerUrl": "https://unirateapi.com",
+        "documentationUrl": "https://github.com/UniRate-API/craft-unirate",
+        "class": "unirateapi\\craftunirate\\Plugin"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
