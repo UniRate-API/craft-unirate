@@ -18,7 +18,7 @@
     "support": {
         "source": "https://github.com/UniRate-API/craft-unirate",
         "issues": "https://github.com/UniRate-API/craft-unirate/issues",
-        "docs": "https://github.com/UniRate-API/craft-unirate"
+        "docs": "https://unirateapi.com"
     },
     "authors": [
         {
@@ -49,7 +49,7 @@
         "name": "UniRate Currency",
         "developer": "UniRate-API",
         "developerUrl": "https://unirateapi.com",
-        "documentationUrl": "https://github.com/UniRate-API/craft-unirate",
+        "documentationUrl": "https://unirateapi.com",
         "class": "unirateapi\\craftunirate\\Plugin"
     },
     "config": {
